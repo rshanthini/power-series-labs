@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Business-first Power Platform labs from Power Series.">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Power Series Labs</title>
+  <script>
+    (() => {
+      const param = new URLSearchParams(window.location.search).get("scoutTheme");
+      const theme = param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css?v=9">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Power Series home">
+      <span class="brand-name">Power <strong>Series</strong></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="labs.html">Labs</a>
+      <a href="https://microsoft.github.io/power-platform-resources/" target="_blank" rel="noopener">Resources</a>
+      <button class="theme-button" id="theme-button" type="button" aria-label="Toggle color theme" title="Toggle color theme">◐</button>
+    </nav>
+    <div class="power-cat-lockup">
+      <picture>
+        <img class="logo-on-light" src="assets/power-cat-dark.png" alt="Power CAT">
+        <img class="logo-on-dark" src="assets/power-cat-light.png" alt="">
+      </picture>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <picture class="platform-logo">
+        <img class="logo-on-light" src="assets/power-platform-dark.png" alt="Microsoft Power Platform">
+        <img class="logo-on-dark" src="assets/power-platform-light.png" alt="">
+      </picture>
+      <p class="eyebrow">Hands-on learning</p>
+      <h1 id="hero-title">Let your business need shape the solution.</h1>
+      <p class="hero-copy">Explore how Power Platform can help you build applications, automate work, manage business data, and create intelligent experiences. Curated by Power CAT, the Power Series helps you understand how these capabilities work, where they fit and how they can work together to solve your business challenges.</p>
+      <div class="hero-actions">
+        <a class="primary-action" href="#start-with-outcome">Explore Power Series <span aria-hidden="true">↓</span></a>
+        <a class="secondary-action" href="https://jubilant-adventure-pz9w5gq.pages.github.io/#explore-guided-learning-journeys" target="_blank" rel="noopener">Get Solution Guidance <span aria-hidden="true">↗</span></a>
+      </div>
+      <dl class="stats" aria-label="Catalog summary">
+        <div><dt id="published-count">—</dt><dd>Published labs</dd></div>
+        <div><dt id="coming-count">—</dt><dd>Coming soon</dd></div>
+        <div><dt id="product-count">—</dt><dd>Product areas</dd></div>
+      </dl>
+    </section>
+
+    <section class="toolbox-story" aria-labelledby="toolbox-story-title">
+      <img class="toolbox-visual" src="assets/Leon_imagery_White.png" alt="Building approaches from no code through spec-driven development, connected to internal, external, and Copilot experiences.">
+      <div class="toolbox-story-inner">
+        <div class="toolbox-story-copy">
+          <h2 id="toolbox-story-title">One toolbox. So you have the right tool, every time.</h2>
+          <p>No matter the need or how you'd like to build, it's already in here as one governed platform.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="needs-section" id="needs" aria-labelledby="needs-title">
+      <div class="section-heading" id="start-with-outcome">
+        <div><p class="eyebrow">Start with the outcome</p><h2 id="needs-title">What challenge are you solving?</h2></div>
+        <p>Labs may support more than one business need. Choose any path to see the relevant catalog.</p>
+      </div>
+      <div class="needs-grid" id="needs-grid"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <picture class="footer-platform-logo">
+      <img class="logo-on-light" src="assets/power-platform-dark.png" alt="Microsoft Power Platform">
+      <img class="logo-on-dark" src="assets/power-platform-light.png" alt="">
+    </picture>
+    <picture class="footer-power-cat-logo">
+      <img class="logo-on-light" src="assets/power-cat-dark.png" alt="Power CAT">
+      <img class="logo-on-dark" src="assets/power-cat-light.png" alt="">
+    </picture>
+  </footer>
+  <script src="app.js?v=4" defer></script>
+</body>
+</html>

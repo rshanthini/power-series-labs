@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse hands-on Power Platform labs from Power Series.">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Labs | Power Series</title>
+  <script>
+    (() => {
+      const param = new URLSearchParams(window.location.search).get("scoutTheme");
+      const theme = param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body class="catalog-page">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Power Series home">
+      <span class="brand-name">Power <strong>Series</strong></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="https://microsoft.github.io/power-platform-resources/" target="_blank" rel="noopener">Resources</a>
+      <button class="theme-button" id="theme-button" type="button" aria-label="Toggle color theme" title="Toggle color theme">◐</button>
+    </nav>
+    <div class="power-cat-lockup">
+      <picture>
+        <img class="logo-on-light" src="assets/power-cat-dark.png" alt="Power CAT">
+        <img class="logo-on-dark" src="assets/power-cat-light.png" alt="">
+      </picture>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="catalog-section" id="labs" aria-labelledby="catalog-title">
+      <div class="catalog-heading">
+        <div><p class="eyebrow">Explore the catalog</p><h1 id="catalog-title">All labs</h1></div>
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+      </div>
+      <div class="catalog-tools">
+        <label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">Search labs</span><input id="search" type="search" placeholder="Search labs, products, or outcomes"></label>
+        <label><span>Business need</span><select id="need-filter"><option value="">All business needs</option></select></label>
+        <label><span>Product</span><select id="product-filter"><option value="">All products</option></select></label>
+        <label><span>Level</span><select id="level-filter"><option value="">All levels</option></select></label>
+        <label class="copilot-filter"><input id="copilot-filter" type="checkbox"><span>Requires GitHub Copilot</span></label>
+        <button class="secondary-action" id="clear-filters" type="button">Clear</button>
+      </div>
+      <div class="active-path" id="active-path" hidden></div>
+      <div class="lab-grid" id="lab-grid"></div>
+      <div class="empty-state" id="empty-state" hidden><h2>No matching labs</h2><p>Try a broader search or clear the filters.</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <picture class="footer-platform-logo">
+      <img class="logo-on-light" src="assets/power-platform-dark.png" alt="Microsoft Power Platform">
+      <img class="logo-on-dark" src="assets/power-platform-light.png" alt="">
+    </picture>
+    <picture class="footer-power-cat-logo">
+      <img class="logo-on-light" src="assets/power-cat-dark.png" alt="Power CAT">
+      <img class="logo-on-dark" src="assets/power-cat-light.png" alt="">
+    </picture>
+  </footer>
+  <script src="app.js?v=4" defer></script>
+</body>
+</html>

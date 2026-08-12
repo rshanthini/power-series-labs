@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-12T22:03:37.274245+00:00",
+  "sourceColumns": [
+    "Lab ID",
+    "Duration",
+    "Lab Type",
+    "Level",
+    "Repo Link",
+    "Proposed Catalog Title",
+    "Catalog Title",
+    "Description",
+    "Business Need",
+    "Product",
+    "GitHub Copilot Flag",
+    "Catalog Display"
+  ],
+  "labs": [
+    {
+      "id": "managed-governance",
+      "duration": "",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/managed-governance/environm",
+      "proposedTitle": "",
+      "catalogTitle": "Managed Governance",
+      "description": "Configure environment groups, policies, routing, sharing limits, and pipelines to govern Power Platform at scale.",
+      "businessNeeds": [
+        "Strengthen governance and security"
+      ],
+      "products": [
+        "Governance"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Published",
+      "title": "Managed Governance"
+    },
+    {
+      "id": "m365-copilot-chat-in-apps-catalyst",
+      "duration": "30 min",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/Catalyst",
+      "proposedTitle": "Copilot Chat Built Into Your Power Apps",
+      "catalogTitle": "M365 Copilot Chat in Apps",
+      "description": "Bring Microsoft 365 Copilot Chat into an app experience and connect conversational assistance to business work.",
+      "businessNeeds": [
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Microsoft 365 Copilot"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Published",
+      "title": "Copilot Chat Built Into Your Power Apps"
+    },
+    {
+      "id": "mcp-apps",
+      "duration": "45 min",
+      "type": "Hands-on",
+      "level": "Advanced",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/mcp-apps",
+      "proposedTitle": "Interact with your App in M365 Copilot (read & write)",
+      "catalogTitle": "MCP Apps",
+      "description": "Build an interactive MCP app that lets an agent browse, update, and visualize Dataverse records in conversation.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": true,
+      "display": "Published",
+      "title": "Interact with your App in M365 Copilot (read & write)"
+    },
+    {
+      "id": "authoring-canvas-apps-and-dataverse-tables-with-mcp",
+      "duration": "45 min",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/canvas-apps-dataverse-mcp",
+      "proposedTitle": "Auto-Generate Dataverse Tables & Canvas Interfaces",
+      "catalogTitle": "Authoring Canvas Apps and Dataverse Tables with MCP",
+      "description": "Use GitHub Copilot and MCP to create a Dataverse data model and polished canvas app from natural-language prompts.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": true,
+      "display": "Published",
+      "title": "Auto-Generate Dataverse Tables & Canvas Interfaces"
+    },
+    {
+      "id": "in-app-agents",
+      "duration": "30 min",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/03-in-app-agents",
+      "proposedTitle": "Bring AI Inside Your App: Natural Language Queries, Auto Charts & Smart Form Fill",
+      "catalogTitle": "In-App Agents",
+      "description": "Add focused agents inside Power Apps to support users with contextual data, guidance, and task completion.",
+      "businessNeeds": [
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Published",
+      "title": "Bring AI Inside Your App: Natural Language Queries, Auto Charts & Smart Form Fill"
+    },
+    {
+      "id": "power-apps-code-apps-with-dataverse-byoc",
+      "duration": "1h",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/byoc-powerapps",
+      "proposedTitle": "Reuse Your Code to Build Custom Apps with Dataverse",
+      "catalogTitle": "Power Apps Code Apps with Dataverse (BYOC)",
+      "description": "Generate a custom code app with GitHub Copilot, connect it to Dataverse, and publish it through Power Platform.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": true,
+      "display": "Published",
+      "title": "Reuse Your Code to Build Custom Apps with Dataverse"
+    },
+    {
+      "id": "power-apps-mcp-server-agents-and-agent-feed",
+      "duration": "45 min",
+      "type": "Hands-on",
+      "level": "Advanced",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/powerapps-mcp",
+      "proposedTitle": "Automate Repetitive Tasks with Built-in Review: Autonomous Agents for Power Apps",
+      "catalogTitle": "Power Apps MCP Server Agents and Agent Feed",
+      "description": "Connect agents to Power Apps through MCP and surface their work in an agent feed for review and action.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse",
+        "Copilot Studio"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Published",
+      "title": "Automate Repetitive Tasks with Built-in Review: Autonomous Agents for Power Apps"
+    },
+    {
+      "id": "app-iq",
+      "duration": "",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "App IQ",
+      "description": "Explore intelligent analysis that helps teams understand an app and identify opportunities to improve it.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "App IQ"
+    },
+    {
+      "id": "cloud-agent-rpa-cua-flows-advanced",
+      "duration": "",
+      "type": "Hands-on",
+      "level": "Advanced",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Automation - Advanced (Cloud, Agent, RPA & CUA Flows)",
+      "description": "Apply advanced orchestration, exception handling, and automation patterns across cloud, agent, RPA, and CUA flows.",
+      "businessNeeds": [
+        "Automate workflows and processes"
+      ],
+      "products": [
+        "Power Automate",
+        "Copilot Studio"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "Automation - Advanced (Cloud, Agent, RPA & CUA Flows)"
+    },
+    {
+      "id": "build-native-mobile-apps-via-skill",
+      "duration": "",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Build Native Mobile Apps via Skill",
+      "description": "Use an AI-assisted skill to turn a Power Apps solution into a native mobile app experience.",
+      "businessNeeds": [
+        "Digitize internal operations"
+      ],
+      "products": [
+        "Power Apps"
+      ],
+      "requiresGitHubCopilot": true,
+      "display": "Coming soon",
+      "title": "Build Native Mobile Apps via Skill"
+    },
+    {
+      "id": "agent-workflows",
+      "duration": "",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Agent Workflows",
+      "description": "Design agent-driven workflows that coordinate decisions, tools, and business processes across multiple steps.",
+      "businessNeeds": [
+        "Automate workflows and processes"
+      ],
+      "products": [
+        "Power Automate",
+        "Copilot Studio"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Retired",
+      "title": "Agent Workflows"
+    },
+    {
+      "id": "advanced-approvals",
+      "duration": "",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Advanced Approvals",
+      "description": "Build resilient approval processes with conditional routing, escalation, exceptions, and operational visibility.",
+      "businessNeeds": [
+        "Automate workflows and processes"
+      ],
+      "products": [
+        "Power Automate"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Retired",
+      "title": "Advanced Approvals"
+    },
+    {
+      "id": "gov-sector-workshop",
+      "duration": "",
+      "type": "",
+      "level": "",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Government Sector Workshop",
+      "description": "Build a Power Platform solution for common government service and operational scenarios.",
+      "businessNeeds": [
+        "Digitize internal operations"
+      ],
+      "products": [
+        "Power Apps",
+        "Power Automate",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "Government Sector Workshop"
+    },
+    {
+      "id": "improve-canvas-app-performance-with-mcp",
+      "duration": "45 min",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Improve Canvas App Performance with MCP",
+      "description": "Use MCP-assisted analysis to find canvas app performance issues and apply targeted improvements.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps"
+      ],
+      "requiresGitHubCopilot": true,
+      "display": "Coming soon",
+      "title": "Improve Canvas App Performance with MCP"
+    },
+    {
+      "id": "generative-pages-github-copilot-and-mda",
+      "duration": "1h",
+      "type": "Hands-on",
+      "level": "Advanced",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/generative-pages",
+      "proposedTitle": "AI-Powered Page Building for Model-Driven Apps",
+      "catalogTitle": "Generative Pages - GitHub Copilot and MDA",
+      "description": "Generate and refine model-driven app pages from prompts, then integrate them with Dataverse and automation.",
+      "businessNeeds": [
+        "Improve customer interactions"
+      ],
+      "products": [
+        "Power Apps",
+        "Power Pages",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": true,
+      "display": "Published",
+      "title": "AI-Powered Page Building for Model-Driven Apps"
+    },
+    {
+      "id": "managed-operations",
+      "duration": "",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/managed-governance/inventory-and-monitoring",
+      "proposedTitle": "",
+      "catalogTitle": "Managed Operations",
+      "description": "Use inventory, monitoring, logs, alerts, and exports to understand platform usage and maintain operational health.",
+      "businessNeeds": [
+        "Strengthen governance and security"
+      ],
+      "products": [
+        "Governance",
+        "Dataverse",
+        "Power Automate"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Published",
+      "title": "Managed Operations"
+    },
+    {
+      "id": "power-pages-website-with-dataverse-byoc",
+      "duration": "1h",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/byoc-powerpages",
+      "proposedTitle": "Bring Your Own Code to Power Pages with Dataverse",
+      "catalogTitle": "Power Pages Website with Dataverse (BYOC)",
+      "description": "Use GitHub Copilot to build a custom website, publish it to Power Pages, and connect it securely to Dataverse.",
+      "businessNeeds": [
+        "Improve customer interactions"
+      ],
+      "products": [
+        "Power Pages",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": true,
+      "display": "Published",
+      "title": "Bring Your Own Code to Power Pages with Dataverse"
+    },
+    {
+      "id": "vibe-apps-app-studio-in-power-platform",
+      "duration": "1h 15m",
+      "type": "Hands-on",
+      "level": "Beginner",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/vibe-powerapps",
+      "proposedTitle": "",
+      "catalogTitle": "Vibe Apps / App Studio in Power Platform",
+      "description": "Build a Dataverse-backed business app by describing the experience, data model, and logic in natural language.",
+      "businessNeeds": [
+        "Digitize internal operations"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Published",
+      "title": "Vibe Apps / App Studio in Power Platform"
+    },
+    {
+      "id": "cloud-agent-rpa-cua-flows-beginner",
+      "duration": "",
+      "type": "Hands-on",
+      "level": "Beginner",
+      "url": "apps-agents-workshop-preview/labs/automations-foundation at main · microsoft/apps-agents-workshop-preview",
+      "proposedTitle": "Automation Toolkit (Foundational): Decision Framework for Cloud Flows, RPA, Workflows & AI Agents",
+      "catalogTitle": "Automation - Beginner (Cloud, Agent, RPA & CUA Flows)",
+      "description": "Build foundational automations across cloud flows, agent flows, robotic process automation, and computer-use automation.",
+      "businessNeeds": [
+        "Automate workflows and processes"
+      ],
+      "products": [
+        "Power Automate",
+        "Copilot Studio"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "Automation Toolkit (Foundational): Decision Framework for Cloud Flows, RPA, Workflows & AI Agents"
+    },
+    {
+      "id": "setting-up-a-skills-marketplace",
+      "duration": "",
+      "type": "Presentation",
+      "level": "Guidance-Based",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Setting Up a Skills Marketplace",
+      "description": "Learn how to organize, publish, and discover reusable skills that teams can apply across business solutions.",
+      "businessNeeds": [
+        "Digitize internal operations"
+      ],
+      "products": [
+        "Power Apps",
+        "Copilot Studio"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "Setting Up a Skills Marketplace"
+    },
+    {
+      "id": "dataverse-business-skills",
+      "duration": "",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "",
+      "proposedTitle": "Centralize Business Rules & Policies in Dataverse Skills",
+      "catalogTitle": "Dataverse Business Skills",
+      "description": "Create reusable business skills over Dataverse data so agents and apps can execute consistent business operations.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Dataverse",
+        "Copilot Studio"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Published",
+      "title": "Centralize Business Rules & Policies in Dataverse Skills"
+    },
+    {
+      "id": "managed-security",
+      "duration": "",
+      "type": "Hands-on",
+      "level": "Advanced",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Managed Security",
+      "description": "Apply advanced security controls and practices to protect data, environments, applications, and automation.",
+      "businessNeeds": [
+        "Strengthen governance and security"
+      ],
+      "products": [
+        "Governance",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "Managed Security"
+    },
+    {
+      "id": "copilot-chat-in-model-driven-apps",
+      "duration": "30 min",
+      "type": "Hands-on",
+      "level": "Intermediate",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/04-copilot-model-driven",
+      "proposedTitle": "",
+      "catalogTitle": "Copilot Chat in Model-Driven Apps",
+      "description": "Embed Copilot Chat in a model-driven app so users can explore business data and act without leaving their workflow.",
+      "businessNeeds": [
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Retired",
+      "title": "Copilot Chat in Model-Driven Apps"
+    },
+    {
+      "id": "autonomous-agents",
+      "duration": "45 min",
+      "type": "Hands-on",
+      "level": "Advanced",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/06-autonomous-agents",
+      "proposedTitle": "",
+      "catalogTitle": "Autonomous Agents",
+      "description": "Build an autonomous agent that plans and completes multi-step business work with connected tools and data.",
+      "businessNeeds": [
+        "Automate workflows and processes"
+      ],
+      "products": [
+        "Copilot Studio",
+        "Power Automate"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Retired",
+      "title": "Autonomous Agents"
+    },
+    {
+      "id": "generative-pages",
+      "duration": "45 min",
+      "type": "Hands-on",
+      "level": "Advanced",
+      "url": "https://github.com/microsoft/apps-agents-workshop-preview/tree/main/labs/05-gen-pages",
+      "proposedTitle": "",
+      "catalogTitle": "Generative Pages",
+      "description": "Create rich model-driven app pages from natural-language prompts over Dataverse data.",
+      "businessNeeds": [
+        "Improve customer interactions"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Retired",
+      "title": "Generative Pages"
+    },
+    {
+      "id": "legacy-rpa-migration",
+      "duration": "",
+      "type": "Skills/How-to",
+      "level": "",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Legacy RPA Migration",
+      "description": "Assess legacy robotic automation and move it to a maintainable Power Automate architecture.",
+      "businessNeeds": [
+        "Automate workflows and processes"
+      ],
+      "products": [
+        "Power Automate"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "Legacy RPA Migration"
+    },
+    {
+      "id": "lotus-notes-to-power-apps",
+      "duration": "",
+      "type": "Skills/How-to",
+      "level": "",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Lotus Notes to Power Apps",
+      "description": "Translate a Lotus Notes application into a modern Power Apps experience with managed business data.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "Lotus Notes to Power Apps"
+    },
+    {
+      "id": "access-app-to-power-apps",
+      "duration": "",
+      "type": "Skills/How-to",
+      "level": "",
+      "url": "https://github.com/microsoft/Power-CAT-Skills-Internal/tree/main/plugins/powercat-powerplatform-migration-factory/skills/powercat-accessmigration\nhttps://github.com/microsoft/Power-CAT-Skills-Internal/tree/main/plugins/powercat-powerplatform-migration-factory/skills/powercat-powerplatform-migration-factory/skills/powercat-sharepoint-workflowmigration",
+      "proposedTitle": "",
+      "catalogTitle": "Access App to Power App",
+      "description": "Modernize a Microsoft Access application with Power Apps and a governed cloud data foundation.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "Access App to Power App"
+    },
+    {
+      "id": "infopath-to-power-apps",
+      "duration": "",
+      "type": "Skills/How-to",
+      "level": "",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "InfoPath to Power Apps",
+      "description": "Replace InfoPath forms with responsive Power Apps experiences and modern automation.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Power Automate"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "InfoPath to Power Apps"
+    },
+    {
+      "id": "sharepoint-workflows-power-apps",
+      "duration": "",
+      "type": "Skills/How-to",
+      "level": "",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "SharePoint Workflows to Power Apps",
+      "description": "Replace legacy SharePoint workflow experiences with Power Apps and Power Automate.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Power Automate"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "SharePoint Workflows to Power Apps"
+    },
+    {
+      "id": "uipath-to-power-automate",
+      "duration": "",
+      "type": "Skills/How-to",
+      "level": "",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "UiPath to Power Automate",
+      "description": "Map UiPath automations to Power Automate and modernize desktop and cloud process orchestration.",
+      "businessNeeds": [
+        "Automate workflows and processes"
+      ],
+      "products": [
+        "Power Automate"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "UiPath to Power Automate"
+    },
+    {
+      "id": "airtable-to-power-apps",
+      "duration": "",
+      "type": "Skills/How-to",
+      "level": "",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Airtable to Power Apps",
+      "description": "Rebuild an Airtable solution in Power Apps with connected data, business logic, and enterprise controls.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "Airtable to Power Apps"
+    },
+    {
+      "id": "google-sheets-app-sheet-to-power-apps",
+      "duration": "",
+      "type": "Skills/How-to",
+      "level": "",
+      "url": "",
+      "proposedTitle": "",
+      "catalogTitle": "Google Sheets + AppSheet to Power Apps",
+      "description": "Move a spreadsheet-backed AppSheet solution to Power Apps and a scalable Power Platform architecture.",
+      "businessNeeds": [
+        "Digitize internal operations",
+        "Modernize existing applications"
+      ],
+      "products": [
+        "Power Apps",
+        "Dataverse"
+      ],
+      "requiresGitHubCopilot": false,
+      "display": "Coming soon",
+      "title": "Google Sheets + AppSheet to Power Apps"
+    }
+  ]
+}
